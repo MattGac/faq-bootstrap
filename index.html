@@ -8,53 +8,80 @@
     <title>FAQ BOOTSTRAP</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="header">faq</h3>
-                <hr>
-            </div>
-        </div>
-    </div>
+    <main role="main" class="container">
+        <div class="main-row">
+           
+            <div class="bd-example">
+                <div class="col-12">
+                    <h2 class="font-weight-normal">FAQ</h2>
+                    <hr class="col-3">
+                </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="accordion" id="accordionExample">
+                <div class="container" id="containerClick">
                     <div class="card">
-                        <div class="card-header" id="one">
+                        <div class="card-header" id="One">
                             <h2 class="mb-0">
-                                <a class="link" href=""> Kim Jest Front End Developer?</a>
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Kim jest Front End Developer?
+                                </button>
                             </h2>
                         </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="One" data-parent="#containerClick">
+                            <div class="card-body">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum molestias ad possimus inventore laboriosam alias dolore dignissimos dolores quis tempora hic quo nam fugiat, quaerat neque nisi similique. Est?
+                            </div>
+                        </div>
                     </div>
+                    
                     <div class="card">
                         <div class="card-header" id="Two">
                             <h2 class="mb-0">
-                                <a class="link" href=""> Od czego zaczyna sie nauka?</a>
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Od czego zaczyna się nauka?
+                                </button>
                             </h2>
                         </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="Two" data-parent="#containerClick">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores unde, nihil qui ab nam esse quisquam nemo tempora saepe beatae magnam suscipit. Inventore tempora dolorum minima exercitationem itaque! Natus, beatae.
+                            </div>
+                        </div>
                     </div>
+                    
                     <div class="card">
                         <div class="card-header" id="Three">
                             <h2 class="mb-0">
-                                <a class="link" href="">Znam juz podstawy, co dalej?</a>
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Znam już podstawy, co dalej?
+                                </button>
                             </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="Three" data-parent="#containerClick">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nostrum ex sequi excepturi ratione perferendis, beatae velit non porro sed. Autem perspiciatis obcaecati ducimus et deleniti necessitatibus itaque. Labore, temporibus.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
         </div>
-    </div>
+    </main>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 
 </body>
 

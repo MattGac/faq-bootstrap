@@ -1,24 +1,24 @@
-*{
+* {
     font-family: 'Open Sans', sans-serif;
-    color:#888888;
+    color: #888888;
 }
-h3.header{
+
+.main-row {
     text-align: center;
-    margin-top: 25px;
-    text-transform: uppercase;
 }
-hr {
-    width: 40%;
-}
-a.link{
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    color: rgb(241, 170, 36);
-    display: block;
-    text-align: center;
+
+h2 {
     font-size: 20px;
 }
-a.link:hover{
-    color:#888888;
+
+.col-12 {
+    margin-top: 30px;
+}
+
+.btn-link {
+    color: #f5b53d;
+}
+
+.btn-link:hover {
+    color: #a3a7a7;
 }
